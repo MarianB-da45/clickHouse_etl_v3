@@ -50,7 +50,7 @@ Airflow is an open-source orchestration framework used to programmatically autho
 
 Graphs: Describe entities & the relationships between them. They are powerful concepts in modeling complex systems.
 E.g. Social Network graphs, A graph of Airline routes.
-[View](#https://github.com/user-attachments/assets/c4672a09-199a-4465-ab0e-1b92c20b1d3e)
+[View](https://github.com/user-attachments/assets/c4672a09-199a-4465-ab0e-1b92c20b1d3e)
 
 
 
