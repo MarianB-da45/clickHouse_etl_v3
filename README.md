@@ -17,4 +17,5 @@ facilitate business analytics and informed decision-making.
 • ﻿﻿Orchestrate the incremental load pipeline using Windows task Scheduler.
 
 ## Solution Architecture
-[]()
+[Apache_airflow_Clickhouse_Diagram drawio](https://github.com/user-attachments/assets/bc7f0cf4-2079-44ca-829d-e1d3a7cadf8e)
+
