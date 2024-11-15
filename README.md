@@ -28,8 +28,19 @@ Open VScode and to clone the repositroy
 open the folder on VScode 
 Terminal terminal ensure you are on Git Bash terminal
 On GitHub copy the URL of the repositroy from code
-On VScode paste  
-
+On VScode paste then Enter
+copy the relative path of clickHouse_etl_v3
+ Type cd dot space and paste then Enter
+ Create your environment variable (env file)
+ copy the env file and paste on clickHouse_etl_v4
+ Go to your STG Schema Area from tripdata on postgres and run a query to get maxdate time
+ SELECT max(pickup_date) FROM "STG".tripdata run
+ You will see your max date
+ Type som commands modification on Main  to get the max_date
+ import datetime and get the new_date
+ save and run 
+ GO back to VScode and run again 
+it will give you data for the next day.
 
 ## Part 3:
 ## Introduction to Apache Flow
