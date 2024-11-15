@@ -4,6 +4,7 @@ Divy Trips is a fictitious cab hailing company in New York City. Divy has been c
 facilitate business analytics and informed decision-making.
 
 ## Project
+## Orchestration and version control of modular_clickHouse_etl_v3 
  You have been hired as a data engineer, and your first task is to orchestrate a pipeline to achieve this objective. You are to use modular coding and appropriate version control for the solution you develop, to facilitate code maintenance, and collaboration with your future team members.
 
 ## Tasks
@@ -18,9 +19,15 @@ facilitate business analytics and informed decision-making.
 
 ## Solution Architecture
 [Apache_airflow_Clickhouse_Diagram drawio](https://github.com/user-attachments/assets/bc7f0cf4-2079-44ca-829d-e1d3a7cadf8e)
+## issues(Pipeline manually Configured) with this repository is that to run the pipeline the code must be manually changed (date). Every day you have to run, you must manually change the date by yourself
+we need to
+## Part 2: Refactor the Pipeline where it can incermentally load the new date by itself Using Version control
+we pull the current version to our own local development and do the changes that we need to do, have it reviewed and then merge it to the code base and the push back to the life repositroy.
+create a folder on the desktop name it clickHouse_etl_v4
+Open VScode and clone the repositroy 
 
 
-## Part 2
+## Part 3:
 ## Introduction to Apache Flow
 
 ## Introduction
