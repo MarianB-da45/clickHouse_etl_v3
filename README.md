@@ -24,7 +24,11 @@ we need to
 ## Part 2: Refactor the Pipeline where it can incermentally load the new date by itself Using Version control
 we pull the current version to our own local development and do the changes that we need to do, have it reviewed and then merge it to the code base and the push back to the life repositroy.
 create a folder on the desktop name it clickHouse_etl_v4
-Open VScode and clone the repositroy 
+Open VScode and to clone the repositroy
+open the folder on VScode 
+Terminal terminal ensure you are on Git Bash terminal
+On GitHub copy the URL of the repositroy from code
+On VScode paste  
 
 
 ## Part 3:
