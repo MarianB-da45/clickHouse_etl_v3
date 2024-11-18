@@ -13,4 +13,4 @@ C:\Users\User\anaconda3\python.exe main.py >> %LOGFILE% 2>&1
 echo pipeline completed at %date% %time% >> %LOGFILE%
 
 echo. >> %LOGFILE%
-
+ 
