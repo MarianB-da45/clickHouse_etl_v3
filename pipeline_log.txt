@@ -1,0 +1,60 @@
+Running pipeline at 18/11/2024 13:48:50.21 
+len     pickup_date vendor_id  ...  payment_type  fare_amount
+0     2015-01-11         2  ...             1         11.0
+1     2015-01-11         2  ...             1          4.5
+2     2015-01-11         2  ...             1          7.5
+3     2015-01-11         2  ...             1         15.5
+4     2015-01-11         2  ...             1         52.0
+...          ...       ...  ...           ...          ...
+6063  2015-01-11         2  ...             1         20.5
+6064  2015-01-11         2  ...             2          5.0
+6065  2015-01-11         2  ...             1         10.0
+6066  2015-01-11         2  ...             1          4.5
+6067  2015-01-11         2  ...             1          5.5
+
+[6068 rows x 6 columns]) rows extracted successfully
+6068 successfully loaded to staging
+Stored procedure executed
+pipeline executed successfully for 2015-01-11
+pipeline completed at 18/11/2024 13:48:58.25 
+ 
+Running pipeline at 18/11/2024 13:53:41.48 
+len     pickup_date vendor_id  ...  payment_type  fare_amount
+0     2015-01-13         1  ...             1         10.0
+1     2015-01-13         1  ...             1          5.0
+2     2015-01-13         1  ...             1         45.0
+3     2015-01-13         1  ...             1          7.0
+4     2015-01-13         1  ...             1          9.0
+...          ...       ...  ...           ...          ...
+2324  2015-01-13         1  ...             1         15.0
+2325  2015-01-13         1  ...             2          6.0
+2326  2015-01-13         1  ...             2          9.5
+2327  2015-01-13         1  ...             1          7.5
+2328  2015-01-13         1  ...             2          7.0
+
+[2329 rows x 6 columns]) rows extracted successfully
+2329 successfully loaded to staging
+Stored procedure executed
+pipeline executed successfully for 2015-01-13
+pipeline completed at 18/11/2024 13:53:47.44 
+ 
+Running pipeline at 18/11/2024 14:08:41.81 
+len      pickup_date vendor_id  ...  payment_type  fare_amount
+0      2015-01-17         1  ...             1          6.5
+1      2015-01-17         1  ...             1          6.5
+2      2015-01-17         1  ...             1          6.0
+3      2015-01-17         1  ...             1         10.5
+4      2015-01-17         1  ...             2         20.0
+...           ...       ...  ...           ...          ...
+32580  2015-01-17         1  ...             1          8.5
+32581  2015-01-17         1  ...             1          6.5
+32582  2015-01-17         1  ...             2          4.0
+32583  2015-01-17         1  ...             1         20.5
+32584  2015-01-17         1  ...             2         30.5
+
+[32585 rows x 6 columns]) rows extracted successfully
+32585 successfully loaded to staging
+Stored procedure executed
+pipeline executed successfully for 2015-01-17
+pipeline completed at 18/11/2024 14:08:50.31 
+ 

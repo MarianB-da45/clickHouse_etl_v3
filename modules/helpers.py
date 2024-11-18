@@ -3,6 +3,8 @@ import os
 from dotenv import load_dotenv
 from sqlalchemy import create_engine
 
+load_dotenv(override=True)
+
 def get_client():
     '''
     connect to a clikhouse database using parameters from an .env file
@@ -26,7 +28,7 @@ def get_client():
 
 
 
-def get_pg_engine():
+def get_postgres_engine():
     '''
     get a  SQLalchemy engine object for postgres DB using parameters in a .env file
         
