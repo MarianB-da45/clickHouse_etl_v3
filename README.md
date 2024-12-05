@@ -60,7 +60,7 @@ Airflow is an open-source orchestration framework used to programmatically autho
 ## Directed Acyclic Graphs (DAGs)
 Graphs: Describe entities & the relationships between them. They are powerful concepts in modeling complex systems.
 E.g. Social Network graphs, A graph of Airline routes.
-[View](https://github.com/user-attachments/assets/c4672a09-199a-4465-ab0e-1b92c20b1d3e)
+[View](https://www.bing.com/images/search?q=delta+airline+route+map&mmreqh=0c8e%2f9XYB16dNwH2WOwl%2bvHBxHjQgcCEmBf43dR%2bIiU%3d&cw=1272&ch=594)
 
 
 ## Directed Acyclic Graphs (DAGs)
