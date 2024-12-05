@@ -1,4 +1,4 @@
-# Divy_Trips_tripdata 
+ # Divy_Trips_tripdata 
 
 Divy Trips is a fictitious cab hailing company in New York City. Divy has been collecting individual trip data from 2009 to 2016. The data is large and is stored in a clickhouse database (https://github.demo,trial.altinity.cloud:8443/play). The business seeks to generate monthly aggregated data and load in a DWH to
 facilitate business analytics and informed decision-making.
@@ -122,14 +122,44 @@ To build your data pipeline in Airflow, you define a DAG file in a python script
 
  ## ﻿﻿Step 1: Import modules
 Import the Python modules & Airflow dependencies needed for the workflow:
+    
+    # Import modules from datetime import timedelta
+    import airflow from airflow import DAG
+    from airflow.operators.bash_operator import BashOperator
 
 
-## Step 2: Specify default arguments
+## Step 2: Specify default arguments 
+
+   default_args = {
+       'owner': 'airflow',
+       'depends_on _past': False,
+       'start_date': datetime(2021, 1, 1),
+       'end_date':datetime(2021, 1, 30),
+       'email': ['airflow@example.com'],
+       'email on failure': False,
+       'email_on_retry': False,
+       'retries': 1,
+       'retry_delay': timedelta(minutes=5),
+       }
 
 
  ## ﻿﻿Step 3: Instantiate a DAG
+ DEfine a DAG name the schedule parameter
+
+      dag = DAG(
+            'tutorial',
+            default_args=default_args,
+            description='A simple tutorial DAG',
+            schedule_interval=timedelta(days=1),
+      )
 
  ## Step 4: Define tasks using operators
+ Define tasks using the different airflow operators:
+         t1 = BashOperators(
+             task_id='print_date',
+             bash_command='date',
+             dag=dag,
+         )
 
 ## Operators & Tasks
 • Operators determine what actually gets done in a dag. It describes a single task in a workflow.
@@ -137,5 +167,7 @@ Import the Python modules & Airflow dependencies needed for the workflow:
 
 ## Step 5: Setup dependencies
 Finally, we setup the dependency between each tasks of the DAG:
+
+   t1 >> [t2, t3] 
 
 
